@@ -1,3 +1,55 @@
+* {
+  font: inherit;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #fdf2e9;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0 15rem;
+  text-align: center;
+  color: #1b1a1a;
+}
+
+@media (max-width: 38em) {
+  h1 {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0rem;
+    text-align: center;
+    color: #1b1a1a;
+  }
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 38em) {
+  .container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10rem;
+  }
+}
 .dial {
   height: 400px;
   width: 400px;
@@ -6,15 +58,6 @@
 .timer {
   position: relative;
   display: inline-block;
-}
-
-* {
-  font: inherit;
-}
-
-body {
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .timer input {

@@ -55,6 +55,13 @@ h1 {
   width: 400px;
 }
 
+@media (max-width: 38em) {
+  .dial {
+    height: 400px;
+    width: 300px;
+  }
+}
+
 .timer {
   position: relative;
   display: inline-block;
